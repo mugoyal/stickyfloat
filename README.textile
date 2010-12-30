@@ -1,0 +1,40 @@
+h1. stickyfloat - jQuery plugin for verticaly floating anything in a constrained area
+
+h2. Example
+
+<pre>
+jQuery('#menu').stickyfloat({duration: 400});
+</pre>
+
+parameters:
+   duration    - the duration of the animation
+   startOffset - the amount of scroll offset after it the animations kicks in
+   offsetY     - the offset from the top when the object is animated
+   lockBottom  - 'true' by default, set to false if you don't want your floating box to stop at parent's bottom
+   paused      - 'false' by default. pauses the scrolling
+
+h2. Version History
+
+Version 2.0.0
+* First version as a github repo
+* Converted to newer jQuery plugin format with a little help from http://starter.pixelgraphics.us/
+* Added ability to pause and restart the floating
+
+Version 1.0.0
+* Some quick patches from Christopher Haupt's version listed below.  Still available at https://gist.github.com/757645
+
+Matte Edens - matte@silent-e.com
+https://github.com/silent-e/stickyfloat
+
+h3. Attributions
+
+Based on the original version and mods
+
+Original 05.16.2009 r1
+Copyright (c) 2009 Yair Even-Or
+vsync.design@gmail.com
+
+Mods by: Christopher Haupt, Webvanta Inc.
+http://www.webvanta.com/, http://twitter.com/chaupt, http://github.com/chaupt
+Honor options set by user.
+https://gist.github.com/728487
